@@ -4,7 +4,7 @@ function getCityFromURL(search) {
   // TODO: MODULE_ADVENTURES
   // 1. Extract the city id from the URL's Query Param and return it
   const urlParams = new URLSearchParams(window.location.search);
-  const cityId = urlParams.get('cityId');
+  const cityId = urlParams.get('city');
 
   return search.split("=")[1];
 }
